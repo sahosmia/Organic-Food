@@ -22,7 +22,14 @@ function Header() {
             </NavLink>
           </li>
 
-    
+          <li className="group relative transition-all">
+            <NavLink
+              className="text-secondary flex gap-1 font-semibold hover:text-secondary transition-all"
+              to="about"
+            >
+              About
+            </NavLink>
+          </li>
 
           <li className="group relative transition-all">
             <NavLink
@@ -33,7 +40,14 @@ function Header() {
             </NavLink>
           </li>
 
-
+          <li className="group relative transition-all">
+            <NavLink
+              className="text-secondary flex gap-1 font-semibold hover:text-secondary transition-all"
+              to="specialities"
+            >
+              Specialities
+            </NavLink>
+          </li>
 
           <li className="group relative transition-all">
             <NavLink
@@ -53,6 +67,24 @@ function Header() {
             </NavLink>
           </li>
 
+          <li className="group relative transition-all">
+            <NavLink
+              className="text-secondary flex gap-1 font-semibold hover:text-secondary transition-all"
+              to="news"
+            >
+              News
+            </NavLink>
+          </li>
+
+          <li className="flex ">
+            <div className="w-10 h-10 bg-main rounded-full flex justify-center items-center">
+              <img
+                src="https://img.icons8.com/ios-glyphs/fafafa/search--v1.png"
+                alt="search--v1"
+                className="w-5 inline-block"
+              />
+            </div>
+          </li>
         </ul>
         <div className="flex lg:hidden">
           <span>

@@ -1,7 +1,6 @@
 import React from 'react'
 import PageBanner from "../component/tools/PageBanner";
 import AboutSection from "../component/About";
-import WhyChoose from '../component/WhyChoose';
 import Teams from '../component/Teams';
 import AboutOffer from '../component/AboutOffer';
 
@@ -33,7 +32,6 @@ function About() {
     <div>
       <PageBanner bg="bg-banner-about" title="About Us" />
       <AboutSection />
-      <WhyChoose />
       <Teams teams={teams} />
       <AboutOffer />
     </div>
