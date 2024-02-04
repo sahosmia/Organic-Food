@@ -18,14 +18,14 @@ function Footer() {
             </li>
             <li className="">
               <h6 className="text-md">Address</h6>
-              <p>Chuadaga, Bangladesh</p>
+              <p>Chuadanga, Bangladesh</p>
             </li>
           </ul>
         </div>
 
         <div className="flex-1 lg:w-1/2 flex flex-col lg:justify-center lg:items-center lg:px-16 lg:text-center">
           <div className="pb-5">
-            <Link to='/'>
+            <Link to="/">
               <img className="inline-block w-40" src="/img/logo.png" alt="" />
             </Link>
           </div>

@@ -5,23 +5,32 @@ export default {
     extend: {
       colors: {
         light: "#ffffff",
-        main: "#0057b8",
-        secondary: "#091c47",
-
-        yellowca: "#EFD372",
+        main: "#274C5B",
         whitefa: "#FAFAFA",
         whitetwo: "#F9F8F8",
         whitethree: "#F1F8F4",
         whitefour: "#ECECEC",
+        secondary: "#7EB693",
+        yellowca: "#EFD372",
         dark: "#525C60",
       },
 
       backgroundImage: {
-        "hero-pattern": "url('/img/banner/hero.jpg')",
-        "address-pattern": "url('/img/address/address-01.jpg')",
-        "address-two-pattern": "url('/img/address/address-02.jpg')",
-        "address-three-pattern": "url('/img/address/address-03.jpg')",
-        "address-four-pattern": "url('/img/address/address-04.jpg')",
+        "hero-pattern": "url('/img/banner/hero.png')",
+        "news-letter": "url('/img/banner/newsletter.jpg')",
+        "offer-one": "url('/img/banner/offer-1.png')",
+        "offer-two": "url('/img/banner/offer-2.png')",
+        "banner-about": "url('/img/banner/banner-about.png')",
+        "banner-blog": "url('/img/banner/banner-blog.png')",
+        "banner-contact": "url('/img/banner/banner-contact.jpg')",
+        "banner-service": "url('/img/banner/banner-service.png')",
+        "banner-shop": "url('/img/banner/banner-shop.png')",
+        "banner-protfolio": "url('/img/banner/banner-protfolio.png')",
+        "banner-team": "url('/img/banner/banner-team.jpg')",
+        "banner-shop-single": "url('/img/banner/banner-shop-single.jpg')",
+        "banner-service-single": "url('/img/banner/banner-service-single.jpg')",
+
+        "project-together": "url('/img/bg-1.jpg')",
       },
     },
 
@@ -44,5 +53,5 @@ export default {
       padding: "2rem",
     },
   },
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [],
 };

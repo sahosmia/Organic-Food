@@ -9,6 +9,7 @@ function MainLayout() {
       <>
           <Header />
           <Outlet/>
+          <NewsLetter/>
           <Footer/>
       </>
   )

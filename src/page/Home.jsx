@@ -1,22 +1,20 @@
-import React from "react";
 import Hero from "../component/Hero";
-import BloodGroupList from "../component/blood/BloodGroupList";
-import Address from "../component/home/Address";
-import Doctors from "../component/home/Doctors";
-import Appointment from "../component/home/Appointment";
-import Choose from "../component/home/Choose";
+import Offer from "../component/Offer";
+import About from "../component/About";
+import Category from "../component/Category";
+import News from "../component/News";
+import Product from "../component/Product";
 
 function Home() {
+
   return (
     <>
       <Hero />
-      <Address />
-      <Choose/>
-      <div className="container">
-        <BloodGroupList />
-      </div>
-      <Doctors />
-      <Appointment />
+      <Offer />
+      <About />
+      <Product/>
+      <Category />
+      <News/>
     </>
   );
 }
